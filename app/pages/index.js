@@ -34,7 +34,7 @@ export default function Home() {
         <button onClick={() => { sendCommand('start'); }} className={styles.startButton}>Start</button>
 
 
-        <button onClick={() => { sendCommand('stop'); }} className={styles.stoppButton}>Stopp</button>
+        <button onClick={() => { sendCommand('stop'); }} className={styles.stopButton}>Stop</button>
       </main>
     </div>
   )

@@ -31,7 +31,7 @@
   opacity: 0.5;
 }
 
-.stoppButton {
+.stopButton {
   background-color: #9A0000;
   color: white;
   font-size: 16px;
@@ -41,7 +41,7 @@
   border-radius: 5px;
 }
 
-.stoppButton:active{
+.stopButton:active{
   opacity: 0.5;
 }
 

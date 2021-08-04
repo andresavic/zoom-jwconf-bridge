@@ -1,0 +1,52 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.startButton {
+  background-color: #009A34;
+  color: white;
+  font-size: 16px;
+  padding: 1rem;
+  margin: 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.startButton:active{
+  opacity: 0.5;
+}
+
+.stoppButton {
+  background-color: #9A0000;
+  color: white;
+  font-size: 16px;
+  padding: 1rem;
+  margin: 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.stoppButton:active{
+  opacity: 0.5;
+}
+
+.vnc{
+  padding: 1rem;
+  background-color: dimgray;
+  color: white;
+}
